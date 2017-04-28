@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Draw Together</title>
+
+    <link rel='stylesheet' href='/spectrum.css' />
+    <link href="https://fonts.googleapis.com/css?family=Schoolbell" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/style.css" >
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src='/spectrum.js'></script>
+    <script src="/frontend.js"></script>
+  </head>
+  <body>
+    <div id="title">
+      <h2>Draw Together</h2>
+    </div>
+    <div id="message_div">
+      <ul id="message">
+      </ul>
+    </div>
+    <canvas id="thecanvas" width = "1100" height= "550"></canvas>
+    <form id="choice">
+      <div id="choice_div">
+        <label>Thickness: </label>
+        <input id="thickness" type="number" min="1" max="20" step="1" value="5" name="stroke_thickness">
+        <label>Brush color: </label>
+        <input type='text' id="custom" />
+      </div>
+    </form>
+    <form id="chat">
+      <input id="message_input" type="text" name="msg">
+      <button type="submit">Send</button>
+    </form>
+  </body>
+</html>

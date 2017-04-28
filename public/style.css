@@ -1,0 +1,50 @@
+#title h2{
+ text-align: center;
+ padding-top: 13px;
+ padding-bottom: 13px;
+ color: white;
+ font-size: 30px;
+ font-family: 'Schoolbell', cursive;
+}
+
+canvas{
+  background-color: white;
+  border-radius: 20px;
+}
+
+body{
+  background-color: #CF4647;
+}
+
+#message_div{
+  width: 300px;
+  height: 630px;
+  background-color: white;
+  float: right;
+  border-radius: 20px;
+}
+
+#message_input{
+  /*margin-top: 100px;*/
+  width:1050px;
+  height: 40px;
+  box-shadow: none;
+  border:none;
+  border-radius: 10px;
+}
+
+li {
+  list-style: none;
+}
+
+#choice{
+  width: 500px;
+}
+
+#chat button{
+  background-color: white;
+  border: none;
+  height: 42px;
+  width: 40px;
+  border-radius: 10px;
+}
